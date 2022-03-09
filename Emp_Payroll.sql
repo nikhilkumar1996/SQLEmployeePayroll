@@ -60,7 +60,7 @@ select * from employee_payroll;
 Insert into employee_Payroll(name,BasicPay,StartDate,Gender,Address,EmployeePhoneNumber,EmployeeDepartment) values ('Terissa',250000,'2021-01-20','F','Chennai,TN','9600054540','Editing');
 select * from employee_payroll where name='Terissa';
 
-
+------- UC 11: Implement the ER Diagram into Payroll Service DB -------
 Create Table Company
 (CompanyID int identity(1,1) primary key,
 CompanyName varchar(100))
@@ -89,7 +89,6 @@ insert into Employee values
 (2,'Kriti Deshmuk',9842905550,'big Market near kotara phase,Nagpur, 94533','2017-04-22','F'),
 (1,'Nandeeshwar',7812905050,'bir bhaghera,Tira Sujanpur,Hamirpur','2015-08-22','M'),
 (2,'Sarang Nair',78129050000,'chandnicHowk delhi,New Delhi','2012-08-29','M')
-
 Select * from Employee
 
 --Create Payroll Table
@@ -142,7 +141,6 @@ insert into EmployeeDepartment values
 (2,2),
 (1,3),
 (3,4)
-
 select * from EmployeeDepartment
 ----UC 12: Ensure all retrieve queries done especially in UC 4, UC 5 and UC 7 are working with new table structure -------
 
